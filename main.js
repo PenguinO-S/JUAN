@@ -1,7 +1,6 @@
 class MyHeader extends HTMLElement{
     connectedCallback(){
         this.innerHTML= `
-
         <header class="header">
         <a href="index.html" class="header__logo">
             <img src="imagenes/juan_mostacho.png" alt="JUAN">

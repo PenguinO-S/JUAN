@@ -20,16 +20,194 @@ body{
 
 .container .box{
     position: relative;
-    width: calc(400px - 20px);
+    width: calc(483px - 20px);
     height: calc(300px - 20px);
     background: #D9D9D9;
     float: left;
     margin: 15px;
     box-sizing: border-box;
     overflow: hidden;
-    border-radius: 10px;
+    top: 593px;
+    left: 98px;
 }
-
+.MOVER{
+    left: 321px;
+    top: 390px;
+}
+.usuer1{
+    position: absolute;
+    width: 68px;
+    height: 18px;
+    left: 631px;
+    top: 362px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.usuer2{
+    position: absolute;
+    width: 84px;
+    height: 17px;
+    left: 896px;
+    top: 252px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.usuer3{
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 1175px;
+    top: 362px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.logo1{
+    width: 75px;
+    height: 72px;
+    background: url(imagenes/juan_mostacho.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 6px;
+    top: 0px;
+    overflow: hidden;
+}
+.imga1{
+    width: 205px;
+    height: 202px;
+    background: url(imagenes/bombom.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 561px;
+    top: 390px;
+    overflow: hidden;
+}
+.imga2{
+    width: 205px;
+    height: 202px;
+    background: url(imagenes/animal.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 840px;
+    top: 280px;
+    overflow: hidden;
+}
+.imga3{
+    width: 205px;
+    height: 202px;
+    background: url(imagenes/burbuja.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 1116px;
+    top: 390px;
+    overflow: hidden;
+}
+.imga4{
+    background: url(imagenes/china.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+    position: absolute;
+    width: 186px;
+    height: 276px;
+    top: 871px;
+    left:1059px;
+}
+.imga5{
+    background: url(imagenes/rabbit.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+    position: absolute;
+    width: 186px;
+    height: 276px;
+    left: 565px;
+    top: 871px;
+}
+.textpre{
+    position: absolute;
+    width: 476px;
+    height: 47px;
+    left: 77px;
+    top: 723px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #52A4B9;
+}
+.textu{
+    position: absolute;
+    width: 245px;
+    height: 138px;
+    left: 755px;
+    top: 960px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+.textu1{
+    position: absolute;
+    width: 252px;
+    height: 138px;
+    left: 1250px;
+    top: 960px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+.textuser{
+    position: absolute;
+    width: 765px;
+    height: 47px;
+    left: 84px;
+    top: 131px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #52A4B9;
+}
 .header__logo{
 
     margin-left: 19px;
@@ -46,7 +224,75 @@ body{
     text-decoration: none;
 
 }
-
+.pie {
+    width: 10000px;
+    height: 80px;
+    background: #05213D;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1258px;
+    left: 0px;
+    overflow: hidden;
+}
+.v461_384 {
+    width: 400px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 25px;
+    left: 19px;
+    font-family: "Roboto Mono";
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+.v170_62 {
+    width: 10000px;
+    height: 80px;
+    background: #05213D;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.fotito img {
+    position: absolute;
+    width: 71px;
+    height: 43px;
+    left: 1766px;
+    top: 15px;
+}
+.v11_549 {
+    width: 49px;
+    color: rgba(239,240,235,1);
+    position: absolute;
+    top: 40px;
+    left: 791px;
+    font-family: Roboto Mono;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+.v11_548 {
+    width: 157px;
+    color: rgba(239,240,235,1);
+    position: absolute;
+    top: 40px;
+    left: 580px;
+    font-family: Roboto Mono;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
 .header__links a:hover{
     font-weight: bold;
 }

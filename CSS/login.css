@@ -34,7 +34,18 @@ form label input{
     font-size: 18px;
     
 }
-
+.v461_384 {
+    width: 400px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 25px;
+    left: 19px;
+    font-weight: Regular;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
 button{
     display: block;
     margin: auto;
@@ -64,4 +75,30 @@ h4{
     height: 40px;
     padding: 25px 30px;
 
+}
+.pie {
+    width: 10000px;
+    height: 80px;
+    background: #05213D;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 983px;
+    left: 0px;
+    overflow: hidden;
+}
+.v170_62 {
+    width: 10000px;
+    height: 80px;
+    background: #05213D;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
 }

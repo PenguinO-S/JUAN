@@ -31,37 +31,19 @@
                 <div class="v16_952"></div>
                 <span class="v16_953">Copyright © 2022 PenguinOS</span>
             </div>
-            <div class="v16_987"></div>
-            <span class="v16_988">Comentarios: 1</span>
-            <span class="v16_978">@fernandoguido</span>
-            <span class="v16_997">@pablito</span>
-            <span class="v16_985">200 vistas</span>
-            <span class="v16_980">Última vez editado: 19/10/2022 </span>
-            <a href="foro.html" class="v16_965">Back</a>
             <div class="name"></div>
-            <div class="name"></div>
-            <div class="v16_969"></div>
-            <div class="v16_970"></div>
-            <div class="v16_971"></div>
-            <div class="v16_1001"></div>
-            <div class="v16_972"></div>
-            <div class="v16_1002"></div>
-            <span class="v16_1003">4</span>
-            <span class="v16_973">100</span>
-            <span class="v16_986">¿Cúal es mejor algoritmo de ordenamiento de datos y por qué?
-
-    Justamente estoy investigando cual sería la mejor opción para poder aplicarlo a mi 
-    trabajo final. para que así el código vaya más rápido.</span>
-    <span class="v16_999">La mejor elección es casi siempre la implementación que viene incluida en el lenguaje que estás usando. 
-    En algunos casos se puede elegir entre las siguientes opciones: Ordenación estable. 
-    Generalmente con memoria adicional O(N), es decir, proporcional a la ocupada por los datos a ordenar.</span>
-    <span class="v16_1000">20/10/22</span>
+            <div class="name"></div> 
+            <!--cajas de llenar texto--> 
+            <div class="cajatitulo">
+              <input type="text" class="caja-titulo" placeholder="Ingresa titulo" required><br>
+            </div>  
+            <div class="cajatema">
+              <input type="text" class="caja-tema" placeholder="Etiqueta tu tema" required><br>
+            </div>  
     <div class="v16_989">
       <input type="text" class="caja" placeholder="Ingresa tu comentario" required><br>
     </div>
-    <span class="v16_1004">Responder</span>
-    <div class="v85_6"></div>
-    <div class="v85_8"></div>
+    <!-- fin cajas de llenar texto-->
     <div class="v270_93">
         <div class="v270_94"></div>
         <div class="v270_95"></div>
@@ -71,7 +53,11 @@
     </div>
     <div class="v785_607">
         <div class="v785_608"></div>
-        <span class="v785_609">Postear</span>
+        <a class="v785_609" href="newentry1.html">Postear</a>
+    </div>
+    <div class="btcancelar">
+        <div class="btcan"></div>
+        <a class="v79" href="foro.html">Cancelar</a>
     </div>
     <!--logo-->
     <a href="index.html"><div class="logo1">
@@ -88,24 +74,101 @@
       font-size: 14px;
     }
     .logo1{
-      width: 60px;
-      height: 60px;
-      background: url(imagenes/juan_mostacho.png);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      opacity: 1;
-      position: absolute;
-      left: 6px;
-      top: 0px;
-      overflow: hidden;
-    }
+    width: 60px;
+    height: 60px;
+    background: url(imagenes/juan_mostacho.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    left: 6px;
+    top: 0px;
+    overflow: hidden;
+}
     .fotito img {
       position: absolute;
       width: 71px;
       height: 43px;
       left: 1766px;
       top: 15px;
+    }
+    .cajatitulo {
+      width: 100%;
+      height: 174px;
+      opacity: 1;
+      position: absolute;
+      top: 107px;
+      left: 36px;
+      overflow: hidden;
+    }
+    .cajatema {
+      width: 100%;
+      height: 174px;
+      opacity: 1;
+      position: absolute;
+      top: 179px;
+      left: 36px;
+      overflow: hidden;
+    }
+    .caja-tema {
+      width: 1203px;
+      height: 53px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      top: 655px;
+      left: 36px;
+      border: 1px solid rgba(0,0,0,1);
+      overflow: hidden;
+    }
+    .caja-titulo {
+      width: 1203px;
+      height: 48px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      top: 655px;
+      left: 36px;
+      border: 1px solid rgba(0,0,0,1);
+      overflow: hidden;
+    }
+    .btcan {
+      width: 169px;
+      height: 53px;
+      background: rgba(217,217,217,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 14px;
+      overflow: hidden;
+    }
+    .btcancelar {
+      width: 169px;
+      height: 53px;
+      background: url(../images/v785_607.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 499px;
+      left: 1440px;
+      overflow: hidden;
+    }
+    .v79 {
+      width: 113px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 13px;
+      left: 36px;
+      font-family: Roboto Mono;
+      font-weight: Regular;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
     }
     .v170_63 {
       width: 100%;
@@ -145,8 +208,8 @@
       text-align: left;
     }
     .caja{
-      width: 1600px;
-      height: 174px;
+      width: 1200px;
+      height: 148px;
       background: rgba(255,255,255,1);
       opacity: 1;
       top: 655px;
@@ -387,7 +450,6 @@
       text-align: left;
     }
     .v16_986 {
-      font-family: Inconsolata;
       width: 1000px;
       color: rgba(0,0,0,1);
       position: absolute;
@@ -426,7 +488,7 @@
       height: 174px;
       opacity: 1;
       position: absolute;
-      top: 655px;
+      top: 255px;
       left: 36px;
       overflow: hidden;
     }
@@ -533,8 +595,8 @@
       background-size: cover;
       opacity: 1;
       position: absolute;
-      top: 761px;
-      left: 1440px;
+      top: 499px;
+      left: 1181px;
       overflow: hidden;
     }
     .v785_608 {

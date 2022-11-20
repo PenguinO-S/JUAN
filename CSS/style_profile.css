@@ -15,11 +15,42 @@ body{
     width: 436px;
     height: 1137px;
     left: 18px; 
-    top: 26px;
+    top: 100px;
     background: #F0C561;
     border-radius: 10px;
 }
-
+.fotito img {
+    position: absolute;
+    width: 71px;
+    height: 43px;
+    left: 1766px;
+    top: 15px;
+}
+.pie {
+    width: 10000px;
+    height: 80px;
+    background: #05213D;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1258px;
+    left: 0px;
+    overflow: hidden;
+}
+.v461_384 {
+    width: 500px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 25px;
+    left: 19px;
+    font-family: 'Roboto Mono';
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
 .username{
     position:absolute;
     top:23px;
@@ -43,6 +74,19 @@ body{
     height: 109px;
     left:25px;
     top:18px; 
+}
+.v170_63 {
+    width: 100%;
+    height: 70px;
+    background: #05213D;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: hidden;
 }
 .edit a{
     position:absolute;
@@ -77,6 +121,30 @@ body{
     left:23px;
     width: 436px;
 }
+.v13_591 {
+    width: 157px;
+    color: rgba(239,240,235,1);
+    position: absolute;
+    top: 40px;
+    left: 580px;
+    font-family: Roboto Mono;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+.v13_592 {
+    width: 49px;
+    color: rgba(239,240,235,1);
+    position: absolute;
+    top: 40px;
+    left: 791px;
+    font-family: Roboto Mono;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
 
 
 .github:link{
@@ -107,7 +175,7 @@ body{
     width: 491px;
     height: 335px;
     left: 486px; 
-    bottom:1111px;
+    bottom:1036px;
 
     background: #F0C561;
     border-radius: 10px;
@@ -164,7 +232,7 @@ body{
     width: 418px;
     height: 334px;
     left: 1001px;
-    top: 94px;
+    top: 103px;
     background: #F0C561;
     border-radius: 10px;
     
@@ -209,7 +277,7 @@ body{
     width: 934px;
     height: 773px;
     left: 486px; 
-    bottom:1085px;
+    bottom:1007px;
 
     background: #F0C561;
     border-radius: 10px;
@@ -410,6 +478,21 @@ form{
     background-color: #57C7FF;
 
    
+  }
+
+  .backing a{
+    position: absolute ;
+    font-family: "Roboto Mono";
+    background-color: #FE79C6;
+    padding: 14px 90px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    border-radius: 18px;
+    left: 1000px;
+    width: 160px;
+    height: 30px;
+    text-decoration: none;
   }
   
   @media screen and (max-width: 700px){

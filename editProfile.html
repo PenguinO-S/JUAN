@@ -14,10 +14,25 @@
     <script type=module src=main.js></script>
 
 </head>
+<style>
+    logo1{
+        width: 60px;
+        height: 63px;
+        background: url(imagenes/juan_mostacho.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        left: 6px;
+        top: 0px;
+        overflow: hidden;
+    }
+</style>
 <my-header></my-header>
 <body>
     <div class="edit_profilePic">
-        <div id="profilePic"><img src="./imagenes/kittyProfile.jpg"></div>
+        <div id="profilePic"><img src="imagenes/kittyProfile.jpg"></div>
         <div id="changePic"class="edit">
             <input type="file" />
         </div>
@@ -27,7 +42,7 @@
                 <div id="nameInfo">
                     <div id="nameTitle" class="subtitles">Nombre</div>
                     <div id="name">Fernando Guido Velarde</div>
-                    <img src="./imagenes/lock-icon-11.png">
+                    <img src="imagenes/lock-icon-11.png">
                 </div>
                 <br>
                 <hr>
@@ -68,10 +83,12 @@
                 <br>
                 <hr>
             </div>
-          
-
         </div>
 
+    </div>
+
+    <div class="backing">
+        <a href="profile.html" type="button" class="back_to_profile">Regresar</a>
     </div>
 
 </body>
