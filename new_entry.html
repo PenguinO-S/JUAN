@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+        <title>New Entry | JUAN</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="imagenes/juan_mostacho.png"> 
+        <script type=module src=main.js></script>
+    </head>
+    <body>
+    <div class="background">
+      <div class="lowbar">
+        <div class="lowbar_bk"></div>
+            <span class="lowbar_lt">Copyright © 2022 PenguinOS</span>
+    </div>
+    <form>
+  <div>
+    <input
+      type="text"
+      id="uname"
+      name="name"
+      placeholder="Ingresa tu comentario"
+      size="30" />
+    </div>
+    <div>
+      <button>Postear</button>
+    </div>
+  </form>
+
+    <div class="pinkbar"></div>
+    <span class="comments">Comentarios: 0</span>
+    <span class="nickname">@fernandoguido</span>
+    <span class="views">200 vistas</span>
+    <span class="last_time">Última vez editado: 19/10/2022 </span>
+    <div class="arrow"></div>
+    <span class="back">Back</span>
+    <div class="name"></div>
+    <div class="name"></div>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="arrq1"></div>
+    <div class="arrq2"></div>
+    <span class="arrq_numb">100</span>
+    <span class="questions"><b>¿Cúal es mejor algoritmo de ordenamiento de datos y por qué?</b></span>
+    <span class ="extra_1"> Justamente estoy investigando cual sería la mejor opción para poder aplicarlo a mi trabajo final. para que así el código vaya más rápido.</span>
+    <div class="profile"></div>
+    <div class="vtopbar"></div>    
+    <div class="vtopb-photo"></div>
+    <form>
+  <div>
+  <input
+      type="text"
+      id="uname"
+      name="name"
+      placeholder="Ingresa tu comentario"
+      size="30" />
+    </div>
+    <div>
+      <button>Postear</button>
+    </div>
+  </form>
+
+</div>
+</body>
+</html> 
+<br/>
+<br/> 
+<style>* {
+      box-sizing: border-box;
+    }
+    body {
+      font-size: 14px;
+    }
+    .background {
+      width: 100%;
+      height: 100%;
+      background: rgba(239,240,235,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .lowbar {
+      width: 100%;
+      height: 1000px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1179px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .lowbar_bk {
+      width: 100%;
+      height: 657px;
+      background: rgba(5,33,61,1);
+      opacity: 1;
+      position: absolute;
+      top: 657px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .lowbar_lt {
+      width: 400px;
+      color: rgba(239,240,235,1);
+      position: absolute;
+      top: 670px;
+      left: 20px;
+      font-family: Roboto Mono;
+      font-weight: Regular;
+      font-size: 25px;
+      opacity: 1;
+      text-align: left;
+    }
+    .pinkbar {
+      width: 100%;
+      height: 68px;
+      background: rgba(184,109,189,1);
+      opacity: 1;
+      position: absolute;
+      top: 560px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .comments {
+      width: 202px;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 570px;
+      left: 33px;
+      font-family: Roboto Mono;
+      font-weight: Regular;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
+    }
+    .nickname {
+      width: 188px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 166px;
+      left: 230px;
+      font-family: Inter;
+      font-weight: Regular;
+      font-size: 30px;
+      opacity: 1;
+      text-align: left;
+    }
+    .views {
+      width: 145px;
+      color: rgba(87,87,87,1);
+      position: absolute;
+      top: 165px;
+      left: 1286px;
+      font-family: Roboto Mono;
+      font-weight: Regular;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
+    }
+    .last_time {
+      width: 433px;
+      color: rgba(155,155,155,1);
+      position: absolute;
+      top: 91px;
+      left: 900px;
+      font-family: Roboto Mono;
+      font-weight: Regular;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
+    }
+    .arrow {
+      width: 60px;
+      opacity: 1;
+      position: absolute;
+      top: 106px;
+      left: 30px;
+      border: 3px solid rgb(0, 0, 0);
+    }
+    .back {
+      width: 58px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 91px;
+      left: 77px;
+      font-family: Roboto Mono;
+      font-weight: Regular;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
+    }
+
+    .box {
+      width: 70px;
+      height: 70px;
+      background: rgba(217,217,217,1);
+      opacity: 1;
+      position: absolute;
+      top: 159px;
+      left: 23px;
+      border-top-left-radius: 13px;
+      border-top-right-radius: 13px;
+      border-bottom-left-radius: 13px;
+      border-bottom-right-radius: 13px;
+      overflow: hidden;
+    }
+    .box2 {
+      width: 70px;
+      height: 70px;
+      background: rgba(217,217,217,1);
+      opacity: 1;
+      position: absolute;
+      top: 290px;
+      left: 23px;
+      border-top-left-radius: 13px;
+      border-top-right-radius: 13px;
+      border-bottom-left-radius: 13px;
+      border-bottom-right-radius: 13px;
+      overflow: hidden;
+    }
+    .arrq1 {
+      width: 25px;
+      opacity: 1;
+      position: absolute;
+      top: 193px;
+      left: 44px;
+      border: 3px solid rgba(0,0,0,1);
+      transform: rotate(-90deg);
+    }
+    .arrq2 {
+      width: 25px;
+      opacity: 1;
+      position: absolute;
+      top: 323px;
+      left: 44px;
+      border: 3px solid rgba(0,0,0,1);
+      transform: rotate(90deg) ;
+    }
+
+    .arrq_numb {
+      width: 44px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 242px;
+      left: 32px;
+      font-family: Roboto Mono;
+      font-weight: Regular;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
+    }
+    .questions {
+      width: 2000%;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 243px;
+      left: 150px;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
+    }
+
+     .extra_1 {
+      width: 2000%;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 280px;
+      left: 150px;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
+    }
+    .profile {
+      width: 58px;
+      height: 51px;
+      background: url("./imagenes/juan_mostacho.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 159px;
+      left: 144px;
+      overflow: hidden;
+    }
+    .vtopb-photo {
+      width: 65px;
+      height: 65px;
+      background: url("./imagenes/juan_mostacho.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow:auto;
+    }
+    .vtopbar {
+      width: 100%;
+      height: 68px;
+      background: rgba(5,33,61,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+</style>

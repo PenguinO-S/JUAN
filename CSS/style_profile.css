@@ -1,0 +1,480 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-color: #EFF0EB;
+    display:block;
+
+}
+.title{
+    font-family: "Roboto Mono";
+    font-size: 24px;
+}
+.info{
+    position: relative;
+    width: 436px;
+    height: 1137px;
+    left: 18px; 
+    top: 26px;
+    background: #F0C561;
+    border-radius: 10px;
+}
+
+.username{
+    position:absolute;
+    top:23px;
+    right:77px;
+    font-family: "Roboto Mono";
+}
+.name{
+    font-size: 24px;
+}
+.user{
+    font-size: 16px;
+}
+.rank{
+    position:absolute;
+    font-size:20px;
+    top:74px;
+}
+.profile_pic img{
+    position:absolute;
+    width: 119px;
+    height: 109px;
+    left:25px;
+    top:18px; 
+}
+.edit a{
+    position:absolute;
+    font-family: "Roboto Mono";
+    background-color: #FE79C6;
+    padding: 14px 112px;
+    font-size:20px;
+    border: none;
+    color: white;
+    border-radius: 18px;
+    left:25px;
+    width: 160px;
+    height: 30px;
+    text-decoration: none;
+
+}
+.edit a:hover{
+    background-color: #CF6CB4;
+    transition: 0.2s;
+    
+}
+.edit_profile{ 
+    top:153px;
+}
+.edit_bio{
+    top:224px;
+}
+.social_media{
+    position:absolute;
+    top:310px;
+    font-family: "Inconsolata";
+    left:23px;
+    width: 436px;
+}
+
+
+.github:link{
+    color:black;
+}
+
+.linkedin:link{
+    color:black;
+}
+.logo img{
+    width: 29px;
+    height: 29px;
+}
+.link{
+    position:absolute;
+    left:55px;
+    font-size: 16px;;
+}
+
+.web_activity{
+    position:absolute;
+    top:439px;
+    left:18px;
+}
+    
+.detailed_progress{
+    position: relative;
+    width: 491px;
+    height: 335px;
+    left: 486px; 
+    bottom:1111px;
+
+    background: #F0C561;
+    border-radius: 10px;
+}
+#titleProblems{
+    position: absolute;
+    top:18px;
+    left:18px;
+}
+.courses{
+    position: absolute;
+    left:18px;
+    top:64px;
+}
+.titleCourse{
+    font-family: "Inconsolata";
+    font-size: 20px;
+}
+.progress{
+    position: absolute;
+    background-color: white;
+    width: 134px;
+    height: 22px;
+    border-radius: 7px;
+    left:330px;
+    top:0px;
+    font-family: "Roboto Mono";
+    text-align: center;
+    color: rgb(255,255,255,0 );
+}
+.progress:hover{
+    color: black;
+    transition: 0.8s;
+}
+#courseTwo{
+    position: absolute;
+    top:62px;
+}
+#courseThree{
+    position: absolute;
+    top:137px;
+}
+#courseFour{
+    position: absolute;
+    top:202px;
+}
+#titleGProgress{
+    position: absolute;
+    top:18px;
+    left:18px;
+}
+.general_progress{
+    position: absolute;
+    width: 418px;
+    height: 334px;
+    left: 1001px;
+    top: 94px;
+    background: #F0C561;
+    border-radius: 10px;
+    
+}
+.progressG:hover{
+    color: rgb(0,0,0,1 );
+    transition: 0.8s ease-in-out;
+}
+.progressG{
+    position: absolute;
+    top:30px;
+    left:10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0,0,0,0 );
+    width:400px;
+    padding:25px 0;
+    border-radius: 8px;
+    background-color: rgb(255,255,255,0 );
+}
+
+.circular_progress{
+    position:relative;
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#9ACEAC 0deg,white 0deg);
+}
+
+.progress-value{
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position:relative;
+    top:105px;
+    left:105px;
+    
+}
+
+.forum-entries{
+    position: relative;
+    width: 934px;
+    height: 773px;
+    left: 486px; 
+    bottom:1085px;
+
+    background: #F0C561;
+    border-radius: 10px;
+}
+#entriesTitle{
+    position: absolute;
+    top:18px;
+    left:18px;
+}
+.group_entries{
+    position: relative;
+    top:76px;
+    left:29px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+	margin: 0;
+	max-width: 811px;
+    
+	position: relative;
+    
+}
+li{
+    height:70px;
+    padding: 21px 24px;
+	border-radius: 18px;
+	background: #52A4B9;
+    color:white;
+}
+
+#entry2{
+    position: relative;
+    top:32px;
+    background: #57C7FF;
+}
+#entry3{
+    position: relative;
+    top:64px;
+    background: #9ACEAC;
+}
+.time{
+    
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    float:right;
+}
+.entries{
+    position: relative;
+    font-family: "Inconsolata";
+    font-size: 20px;
+    top:24px;
+}
+#profilePic img{
+    position: relative;
+    width: 250px;
+    height: 223px;
+    left:37px;
+    top:35px;
+}
+.edit{
+    font-family: "Roboto Mono";
+    font-size: 20px;
+}
+#changePic{
+    position:relative;
+    top:50px;
+    left:30px;
+
+}
+.edit_user_info{
+    position:relative;
+    left:388px;
+    bottom:208px;
+    width: 970px;
+}
+.editInfo{
+    position: relative;
+    top:50px;
+}
+
+hr{
+
+    width: 100%;
+}
+
+.subtitles{
+    
+    font-family: "Roboto Mono";
+    font-size: 20px;
+}
+#nameTitle{
+    position: relative;
+    float:left;  
+    left: 10px;
+    bottom:10px;
+
+}
+#name{
+    position: relative;
+    right:600px;
+    float:right;    
+    font-family: "Inconsolata";
+}
+#nameInfo img{
+    position: relative;
+    left: 870px;
+    width: 20px;
+    height: 20px;
+}
+#userTitle{
+    position: relative;
+    float:left;  
+    left: 10px;
+    bottom:10px;
+
+}
+#userInfo{
+    position: relative;
+    top:10px;
+}
+#user{
+    position: relative;
+    right:665px;
+    float:right;    
+    font-family: "Inconsolata";
+}
+
+#userEdit{
+    position: relative;
+    left: 800px;
+    text-decoration: none;
+    color:black;
+}
+#userEdit:hover{
+    text-decoration: underline;
+}
+form{
+    font-family: "Roboto Mono";
+}
+#ouser{
+    font-family:"Inconsolata";
+}
+#nuser{
+    font-family:"Inconsolata";
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #EFF0EB;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  .save{
+    width: 160px;
+    height: 47px;
+    background-color: #57C7FF;
+
+   
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
+
+form{
+    font-family: "Roboto Mono";
+}
+#ouser{
+    font-family:"Inconsolata";
+}
+#nuser{
+    font-family:"Inconsolata";
+}
+#githubTitle{
+    position: relative;
+    float:left;  
+    left: 10px;
+
+}
+#github{
+    position: relative;
+    right:720px;
+    float:right;    
+    font-family: "Inconsolata";
+    top:10px;
+}
+
+#githubEdit{
+    position: relative;
+    left: 814px;
+    text-decoration: none;
+    color:black;
+}
+#githubEdit:hover{
+    text-decoration: underline;
+}
+#linkedinTitle{
+    position: relative;
+    float:left;  
+    left: 10px;
+
+}
+#linkedin{
+    position: relative;
+    right:720px;
+    float:right;    
+    font-family: "Inconsolata";
+    top:10px;
+}
+
+#linkedinEdit{
+    position: relative;
+    left: 790px;
+    text-decoration: none;
+    color:black;
+    top:10px;
+}
+#linkedinEdit:hover{
+    text-decoration: underline;
+}

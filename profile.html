@@ -1,23 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>Perfil</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style_profile.css">
     <link rel="icon" href="imagenes/juan_mostacho.png">
     <script type=module src=main.js></script>
     
 </head>
 <my-header></my-header>
 <body>
-<h1>Probando Probando 123</h1>
+    <div class="info">
+        <div class="personal_data">
+            <div>
+                <div class="profile_pic">
+                    <img src="imagenes/kittyProfile.jpg" alt="user">
+                </div>
+                <div class="username">
+                    <div class="name">Fernando Guido</div>
+                    <div class="user">@fernandoguido</div>
+                    <div class="rank">Puesto: 1000</div>
+                </div>
+            </div>
+            <div class="edit">
+                <a href="./editProfile.html" type="button" class="edit_profile">Editar Perfil</a>
+                <a type="button" class="edit_bio">Editar Bio</a>
+            </div>
+            
+            <div class="social_media">
+                <a href=# class="github">
+                <div>
+                    <span class="logo">
+                        <img src="imagenes/github.png" alt="github_logo">
+                    </span>
+                    <span class="link">
+                        <div class="github_user">no data</div>
+                    </span>
+                </div>
+                </a>
+                <a href=# class="linkedin">
+                    <div>
+                        <span class="logo">
+                            <img src="imagenes/LinkedIn_logo_initials.png" alt="linkedin_logo">
+                        </span>
+                        <span class="link">
+                            <div class="linkedin_user">no data</div>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+        <div class="web_activity">
+            <div class="community_activity">
+                <div class="title">Comunidad</div>
+                <div class="community">
+                    <div class="subtitles">
+                        Participación en el foro
+                        <div class="entries"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="languages">
+                <div class="subtitles">Lenguaje aprendidos</div>
+                No data
+            </div>
+            <hr>
+            <div class="skills">
+                <div class="subtitles">Habilidades</div>
+                No data
+            </div>
+        </div>
+    </div>
+    <div class="detailed_progress">
+        <div class="title" id="titleProblems">Problemas resueltos</div>
+        <div class="courses">
+            <div id="courseOne">
+                <div class="titleCourse">Introducción a los algoritmos</div>
+                <div class="progress" >0%</div>
+            </div>
+            <div id="courseTwo">
+                <div class="titleCourse">Algoritmos</div>
+                <div class="progress" >0%</div>
+            </div>
+            <div id="courseThree">
+                <div class="titleCourse">Algoritmos y <br>
+                    Estructuras de Datos</div>
+                <div class="progress" >0%</div>
+            </div>
+            <div id="courseFour">
+                <div class="titleCourse">Complejidad Algorítmica</div>
+                <div class="progress" >0%</div>
+            </div>
+        </div>
 
+    </div>
+    <div class="general_progress">
+        <div id="titleGProgress" class="title">Progreso Global</div>
+        <div class="progressG">
+            <div class="circular_progress">
+                <span class="progress-value">0%</span>
+            </div>
+        </div>
+    </div>
+    <div class="forum-entries">
+        <div id="entriesTitle" class="title">Entradas en el foro</div>
+        <div class="group_entries">
+            <ul>
+                <li id="entry1">
+                    <div class="entries">Guardar palabras por separado</div>
+                    <div class="time">Hace 4 horas</div>
+                </li>
+                <li id="entry2">
+                    <div class="entries">Contar letras/palabras en C++</div>
+                    <div class="time">Hace 2 días</div>
+                </li>
+                <li id="entry3">
+                    <div class="entries">¿Cómo trabajar un menú con clases, objetos y arrays char?</div>
+                    <div class="time">Hace 10 días</div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    
+    
 </body>
-<my-footer></my-footer>
+<my-footer></my-footer>     
 </html>
